@@ -10,12 +10,17 @@ const ListItem = props => {
     <li className="li-container">
       <p className="time">{timeAccessed}</p>
       <div className="logo-title-domain-delete-con">
-        <img className="logo-url" src={logoUrl} alt="search" />
+        <img className="logo-url" src={logoUrl} alt="domain logo" />
         <div className="title-domain-con">
           <p className="title">{title}</p>
           <p className="domain-url">{domainUrl}</p>
         </div>
-        <button onClick={onDeleteBtn1} type="button" className="del-btn">
+        <button
+          data-testid="delete"
+          onClick={onDeleteBtn1}
+          type="button"
+          className="del-btn"
+        >
           <img
             src="https://assets.ccbp.in/frontend/react-js/delete-img.png"
             alt="delete"

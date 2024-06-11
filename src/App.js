@@ -114,7 +114,7 @@ class App extends Component {
     const updatedList =
       filteredList.length === 0 ? (
         <div className="nothing-con">
-          <h1 className="nothing">There is no history to show.</h1>
+          <p className="nothing">There is no history to show.</p>
         </div>
       ) : (
         ulContainer
