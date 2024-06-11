@@ -1,0 +1,63 @@
+.li-container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 30px 10px 30px 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .li-container {
+    flex-direction: column;
+  }
+}
+
+.time {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #64748b;
+  margin-right: 20px;
+  width: 80px;
+  font-weight: 600;
+}
+.logo-title-domain-delete-con {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-url {
+  width: 30px;
+  margin-right: 30px;
+}
+
+.title-domain-con {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+@media screen and (max-width: 768px) {
+  .title-domain-con {
+    flex-direction: column;
+  }
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-right: 20px;
+}
+.domain-url {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+}
+
+.del-btn {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.delete-img {
+  width: 20px;
+}
