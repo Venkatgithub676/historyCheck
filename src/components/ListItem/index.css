@@ -19,6 +19,12 @@
   width: 80px;
   font-weight: 600;
 }
+
+@media screen and (max-width: 768px) {
+  .time {
+    margin-right: auto;
+  }
+}
 .logo-title-domain-delete-con {
   display: flex;
   align-items: center;
@@ -38,6 +44,9 @@
 @media screen and (max-width: 768px) {
   .title-domain-con {
     flex-direction: column;
+    flex-grow: 0;
+    margin-right: auto;
+    align-items: flex-start;
   }
 }
 .title {
@@ -45,12 +54,23 @@
   font-size: 15px;
   margin-right: 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .title {
+    margin-bottom: 0;
+  }
+}
 .domain-url {
   font-family: 'Roboto';
   font-size: 15px;
   color: #475569;
 }
 
+@media screen and (max-width: 768px) {
+  .domain-url {
+    margin-top: 0px;
+  }
+}
 .del-btn {
   width: 20px;
   height: 20px;
